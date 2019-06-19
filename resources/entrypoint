@@ -1,0 +1,13 @@
+#!/bin/sh
+set -ex
+
+###
+# Launch confd
+###
+confd -onetime -backend file -file ${CONFD_BACKEND_FILE}
+
+###
+# Launch poweradmin-exporter
+###
+/opt/pae/poweradmin_exporter \
+  --config.file='/opt/pae/configuration.yaml' \
