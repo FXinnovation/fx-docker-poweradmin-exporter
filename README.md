@@ -1,6 +1,6 @@
 # docker-poweradmin-exporter
 
-Docker Image with Prometheus exporter for Power Admin
+Docker Image with Prometheus exporter for [PowerAdmin](https://poweradmin.com)
 
 ## Usage
 ### TL;DR
