@@ -29,7 +29,7 @@ RUN /resources/build && rm -rf /resources
 
 USER pae
 
-EXPOSE 9876
+EXPOSE 9575
 
 WORKDIR /opt/pae
 
