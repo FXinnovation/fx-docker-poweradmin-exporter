@@ -1,4 +1,0 @@
-[template]
-src = "configuration.yml.tmpl"
-dest = "/opt/pae/configuration.yml"
-keys = ["/configuration"]

@@ -1,0 +1,4 @@
+[template]
+src = "configuration.yaml.tmpl"
+dest = "/opt/pae/configuration.yaml"
+keys = ["/configuration"]

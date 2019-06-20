@@ -1,0 +1,4 @@
+[template]
+src = "status_mapping.yml.tmpl"
+dest = "/opt/pae/status_mapping.yml"
+keys = ["/status_mapping"]
